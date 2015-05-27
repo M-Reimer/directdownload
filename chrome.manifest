@@ -1,0 +1,4 @@
+content directdownload chrome/content/
+
+locale  directdownload en-US chrome/locale/en-US/
+locale  directdownload de-DE chrome/locale/de-DE/

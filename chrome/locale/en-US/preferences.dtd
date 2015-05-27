@@ -1,0 +1,4 @@
+<!-- -*- coding: utf-8 -*- -->
+<!ENTITY dialog-title "DirectDownload preferences">
+<!ENTITY label-urlbar "Start download from URL bar with Shift+Enter">
+<!ENTITY label-link "Start download with Alt+Click on website links">

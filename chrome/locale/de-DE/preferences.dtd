@@ -1,0 +1,4 @@
+<!-- -*- coding: utf-8 -*- -->
+<!ENTITY dialog-title "DirectDownload Einstellungen">
+<!ENTITY label-urlbar "Downloads von der Adressleiste mit Umschalttaste+Enter starten">
+<!ENTITY label-link "Downloads von Links auf Webseiten mit Alt+Klick starten">
