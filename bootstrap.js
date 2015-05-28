@@ -118,7 +118,7 @@ function OnUrlbarKeyUp(aEvent) {
   var url = aEvent.target.value;
   var urifixup = Components.classes["@mozilla.org/docshell/urifixup;1"]
                            .getService(nsIURIFixup);
-  var uri = urifixup.createFixupURI(url, nsIURIFixup.FIXUP_FLAGS_MAKE_ALTERNATE_URI).spec;
+  var uri = urifixup.createFixupURI(url, nsIURIFixup.FIXUP_FLAGS_MAKE_ALTERNATE_URI);
 
   var window = aEvent.target.ownerGlobal;
   if (uri)
