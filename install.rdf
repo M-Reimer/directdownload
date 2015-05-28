@@ -7,7 +7,7 @@
     <em:id>{d5f9d033-0f87-457d-9f6a-1004204d6852}</em:id>
     <em:name>Direct Download</em:name>
     <em:description>Addon which allows to directly download links on websites or from the address bar using a modifier key</em:description>
-    <em:version>0.1</em:version>
+    <em:version>1.0.0</em:version>
     <em:creator>Manuel Reimer</em:creator>
     <em:homepageURL>https://github.com/M-Reimer/directdownload</em:homepageURL>
     <em:optionsURL>chrome://directdownload/content/preferences.xul</em:optionsURL>
@@ -19,7 +19,7 @@
       <Description>
         <em:id>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</em:id>
         <em:minVersion>38.0</em:minVersion>
-        <em:maxVersion>38.0.1</em:maxVersion>
+        <em:maxVersion>42.0</em:maxVersion>
       </Description>
     </em:targetApplication>
   </Description>
