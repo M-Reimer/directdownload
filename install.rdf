@@ -11,6 +11,7 @@
     <em:creator>Manuel Reimer</em:creator>
     <em:homepageURL>https://github.com/M-Reimer/directdownload</em:homepageURL>
     <em:optionsURL>chrome://directdownload/content/preferences.xul</em:optionsURL>
+    <em:optionsType>2</em:optionsType>
     <em:type>2</em:type>
     <em:bootstrap>true</em:bootstrap>
 

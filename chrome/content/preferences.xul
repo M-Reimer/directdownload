@@ -2,19 +2,11 @@
 
 <!DOCTYPE dialog SYSTEM "chrome://directdownload/locale/preferences.dtd">
 
-<?xml-stylesheet href="chrome://global/skin/" type="text/css"?>
-
-<prefwindow xmlns = "http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul"
-            title = "&dialog-title;"
-            id = "directdownload-prefwindow">
-
-  <prefpane>
-    <preferences>
-      <preference id="pref-urlbar" name="extensions.directdownload.urlbarShiftSave" type="bool"/>
-      <preference id="pref-link" name="browser.altClickSave" type="bool"/>
-    </preferences>
-    <checkbox label="&label-urlbar;" preference="pref-urlbar"/>
-    <checkbox label="&label-link;" preference="pref-link"/>
-  </prefpane>
-
-</prefwindow>
+<vbox xmlns = "http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+  <setting type="bool"
+           pref="extensions.directdownload.urlbarShiftSave"
+           title="&label-urlbar;"/>
+  <setting type="bool"
+           pref="browser.altClickSave"
+           title="&label-link;"/>
+</vbox>
