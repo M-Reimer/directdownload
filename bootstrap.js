@@ -103,6 +103,10 @@ function TearDownBrowserUI(window) {
 }
 
 function OnUrlbarKeyUp(aEvent) {
+  // Only handle the event coming directly from the original target
+  if (aEvent.target != aEvent.originalTarget)
+    return;
+
   // We are only interested in the "Shift+Enter" event
   if (aEvent.keyCode != aEvent.DOM_VK_RETURN || !aEvent.shiftKey)
     return;
