@@ -94,17 +94,17 @@ var WindowListener = {
 
 function SetupBrowserUI(window) {
   var urlbar = window.document.getElementById("urlbar");
-  urlbar.addEventListener("keydown", OnUrlbarKeyUp, false);
+  urlbar.addEventListener("keydown", OnUrlbarKeyUp, true);
 }
 
 function TearDownBrowserUI(window) {
   var urlbar = window.document.getElementById("urlbar");
-  urlbar.removeEventListener("keydown", OnUrlbarKeyUp, false);
+  urlbar.removeEventListener("keydown", OnUrlbarKeyUp, true);
 }
 
 function OnUrlbarKeyUp(aEvent) {
   // Only handle the event coming directly from the original target
-  if (aEvent.target != aEvent.originalTarget)
+  if (aEvent.target != aEvent.currentTarget)
     return;
 
   // We are only interested in the "Shift+Enter" event
